@@ -1,0 +1,141 @@
+html{
+  scroll-behavior: smooth;
+}
+.logo {
+  width: 100px;
+  height: 75px;
+  margin-top: 5px;
+  padding: auto;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  border-radius: 5px;
+  border: solid 2px whitesmoke;
+  box-shadow: 1px 1px 2px #000000;
+}
+  .heading {
+    color: aliceblue;
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom:11px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Shizuru", cursive;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 480px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    
+  }
+  
+  @keyframes example {
+    25% { left:900px; top: 0px;}
+    0% {left:90px; top:0px;}
+    
+  }
+    
+  
+  .top {
+    text-align: center;
+  }
+ 
+.top{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+    background-image:linear-gradient(to top, #6190e8 30%, #a7bfe8 50%); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: linear-gradient(to right, #2c65c7 50%, #346ac7 50%);
+    
+    
+}
+.toptxt{
+  margin:auto;
+  padding-left:20px;
+  padding: auto;
+  text-shadow: 2px 2px 4px black;
+  font-size: x-large;
+  font-family:sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 1px;
+    
+}    
+.img1{
+  margin:30px 50px 10px 50px;
+    padding: auto;
+    border:solid 4px rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 350px;
+    width: 450px;
+    box-shadow: 4px 4px 8px;
+
+}
+
+.img2{
+  margin:30px 50px 10px 50px;
+  padding: auto;
+  border:solid 4px rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 350px;
+  width: 450px;
+  box-shadow: 4px 4px 8px ;
+}
+
+hr{
+  border:solid 1px white;
+ }
+
+
+.discbg{
+  background-color: #84a9e9;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.discbg{
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  background-color: #6190e8;
+  margin-top: 2px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Shizuru", cursive;
+  width: 260px;
+  height: 60px;
+  position: relative;
+  left:40%;
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+  
+}
+
+@keyframes example1 {
+  25% { left:900px; top: 0px;}
+  0% {left:90px; top:0px;}
+  
+}
+  
+.heading1{
+  margin: 2px;
+  padding-top: 1px;
+  padding-bottom: 4px;
+}
+.main{
+  background-color: #6190e8;
+}

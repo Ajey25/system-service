@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subpage1</title>
+    <link rel="stylesheet" href="subpage.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1 style="font-size: 2vw;"><strong>Desktop repairs</strong></h1>
+            <p style="font-size: 2vw;">A platform for many common problems </p>
+        </header>
+       <hr>
+<div class="container">
+    <img class="img" src="img1.jpg" style="width:100%">
+    <img class="img" src="img10.jpg" style="width:100%">
+    <img class="img" src="img12.jpg" style="width:100%">
+    <img class="img" src="img6.jfif" style="width:100%">
+  <hr>
+    <button class="btn-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="btn-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  <hr>
+  <div>
+      <span><h1>what we offer</h1></span>
+      <hr>
+
+  </div>
+  <div class="box">
+    <div class="box1">
+        <h3>Design</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+    
+      <div class="box2">
+        <h3>Branding</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+    
+      <div class="box3">
+        <h3>Consultation</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+    
+      <div class="box4">
+        <h3>Promises</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+  </div>
+</div>
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("img");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+        
+    </div>
+</body>
+</html>
